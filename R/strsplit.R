@@ -1,4 +1,4 @@
-#' @Title `strsplit` function with improvement
+#' @Title The improvement of `strsplit`
 #'
 #' @description This functions uses `strsplit` and adds the possibility to split
 #'  and keep the delimiter after or before the given split. Or it can split
@@ -19,7 +19,12 @@
 #'   the vector
 #'
 #' @examples
-
+#' x <- c("3D/MON&SUN")
+#' strsplit(x, "", type = "before")
+#' x <- c("3D/MON&SUN")
+#` strsplit(x, "S", type = "DK")
+#`
+#' @export
 strsplit <- function(x,
                      split,
                      type = "remove",
