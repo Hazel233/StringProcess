@@ -16,7 +16,7 @@ You can install the released version of funfurther from
 [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-devtools::install_github("Hazel233/Useful-R-Packages")
+install.packages("devtools")
 ```
 
 And the development version from [GitHub](https://github.com/) with:
